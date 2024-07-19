@@ -6,3 +6,5 @@ scp /home/user/file.txt user@123.123.123.123:/var/www/vhosts/domain.com/httpdocs
 
 To transfer a directory, use the -r option:
 scp -r /path/to/local/directory username@remote_server:/path/to/remote/directory
+
+scp /C:/Users/Administrator/Downloads/FileName test_ftp@888.33.777.145:/var/www/vhosts/DomainName/httpdocs
