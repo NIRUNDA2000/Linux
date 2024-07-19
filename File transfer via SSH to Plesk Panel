@@ -1,0 +1,8 @@
+Use the SCP Command: To transfer a file from your local machine to the remote server, use the following syntax:
+scp /path/to/local/file username@remote_server:/path/to/remote/directory
+
+For example:
+scp /home/user/file.txt user@123.123.123.123:/var/www/vhosts/domain.com/httpdocs
+
+To transfer a directory, use the -r option:
+scp -r /path/to/local/directory username@remote_server:/path/to/remote/directory
