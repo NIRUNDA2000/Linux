@@ -1,0 +1,20 @@
+>>> Check the Default Root Directory (/var/www/html/)
+    cd /var/www/html/
+    ls
+
+>>> Check for WordPress Files in the Root Directory
+    cd /
+    ls
+
+>>> Use find Command to Locate WordPress Files
+    sudo find / -maxdepth 1 -name "wp-config.php"
+
+>>> Check the Web Server Configuration (Apache or Nginx):
+    * For Apache, check the DocumentRoot in the configuration file:
+    cat /etc/apache2/sites-enabled/000-default.conf | grep DocumentRoot
+
+    * For Nginx, check the root directive:
+    cat /etc/nginx/sites-enabled/default | grep root
+
+>>> Check for the Presence of WordPress-Specific Files:
+    ls -l /
