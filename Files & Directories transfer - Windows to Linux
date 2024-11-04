@@ -1,0 +1,8 @@
+Install the Putty pscp
+
+FOR FILES
+pscp [options] source_file user@hostname:/destination_path
+pscp E:\path\path\path root@ipaddress:/path/path
+
+FOR DIRECTORIES
+pscp -r E:\path\path\path ServerUsername@ipaddress:/path/path
